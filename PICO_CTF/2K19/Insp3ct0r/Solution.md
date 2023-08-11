@@ -7,6 +7,7 @@
 Kishor Balan tipped us off that the following code may need inspection:\
 https://jupiter.challenges.picoctf.org/problem/41511/ or http://jupiter.challenges.picoctf.org:41511
 
+[WebSite Main Page](https://github.com/pratty010/CTF/blob/master/PICO_CTF/2K19/Insp3ct0r/website.png)
 
 ### FLAG PART 1/3
 
