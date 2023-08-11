@@ -16,6 +16,8 @@ In the **Page-Source** of main source. Inform of HTML comment
 <!-- Html is neat. Anyways have 1/3 of the flag: picoCTF{tru3_d3 -->
 ```
 
+Refer: [See this](https://github.com/pratty010/CTF/blob/master/PICO_CTF/2K19/Insp3ct0r/page_source.png)
+
 ### FLAG PART 2/3
 
 In the page source of css file found in previous page source. 
@@ -23,6 +25,8 @@ In the page source of css file found in previous page source.
 ```css
 /* You need CSS to make pretty pages. Here's part 2/3 of the flag: t3ct1ve_0r_ju5t */
 ```
+
+Refer: [See this](https://github.com/pratty010/CTF/blob/master/PICO_CTF/2K19/Insp3ct0r/css.png)
 
 ### FLAG PART 3/3
 
@@ -32,6 +36,11 @@ In the page source of js file found in previous page source.
 /* Javascript sure is neat. Anyways part 3/3 of the flag: _lucky?2e7b23e3} */
 ```
 
+Refer: [See this](https://github.com/pratty010/CTF/blob/master/PICO_CTF/2K19/Insp3ct0r/js.png)
+
+
 ### FLAG
 
+```
 picoCTF{tru3_d3t3ct1ve_0r_ju5t_lucky?2e7b23e3}
+```
