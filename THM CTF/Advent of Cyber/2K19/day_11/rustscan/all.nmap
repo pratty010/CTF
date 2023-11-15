@@ -1,0 +1,16 @@
+# Nmap 7.94SVN scan initiated Tue Nov 14 21:50:03 2023 as: nmap -vvv -p 21,111,2049,3306,20048,40253,47469 -oN rustscan/all.nmap 10.10.82.14
+Nmap scan report for 10.10.82.14
+Host is up, received conn-refused (0.18s latency).
+Scanned at 2023-11-14 21:50:03 IST for 0s
+
+PORT      STATE SERVICE REASON
+21/tcp    open  ftp     syn-ack
+111/tcp   open  rpcbind syn-ack
+2049/tcp  open  nfs     syn-ack
+3306/tcp  open  mysql   syn-ack
+20048/tcp open  mountd  syn-ack
+40253/tcp open  unknown syn-ack
+47469/tcp open  unknown syn-ack
+
+Read data files from: /usr/bin/../share/nmap
+# Nmap done at Tue Nov 14 21:50:03 2023 -- 1 IP address (1 host up) scanned in 0.48 seconds

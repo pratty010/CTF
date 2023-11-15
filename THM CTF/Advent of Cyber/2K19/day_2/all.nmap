@@ -1,0 +1,13 @@
+# Nmap 7.94SVN scan initiated Mon Nov 13 19:08:46 2023 as: nmap -vvv -p 22,111,3000,35847 -oN all.nmap 10.10.3.199
+Nmap scan report for 10.10.3.199
+Host is up, received conn-refused (0.17s latency).
+Scanned at 2023-11-13 19:08:46 IST for 1s
+
+PORT      STATE SERVICE REASON
+22/tcp    open  ssh     syn-ack
+111/tcp   open  rpcbind syn-ack
+3000/tcp  open  ppp     syn-ack
+35847/tcp open  unknown syn-ack
+
+Read data files from: /usr/bin/../share/nmap
+# Nmap done at Mon Nov 13 19:08:47 2023 -- 1 IP address (1 host up) scanned in 0.39 seconds

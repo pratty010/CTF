@@ -1,2 +1,1 @@
-# CTF
-My solutions to well known CTFs
+My solutions to well known CTF challenges.

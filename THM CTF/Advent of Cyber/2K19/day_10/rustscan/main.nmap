@@ -1,0 +1,36 @@
+# Nmap 7.94SVN scan initiated Tue Nov 14 20:32:09 2023 as: nmap -vvv -p 80,111,22,48541 -sC -sV -oN rustscan/main.nmap 10.10.250.226
+Nmap scan report for 10.10.250.226
+Host is up, received syn-ack (0.18s latency).
+Scanned at 2023-11-14 20:32:09 IST for 14s
+
+PORT      STATE SERVICE REASON  VERSION
+22/tcp    open  ssh     syn-ack OpenSSH 7.4 (protocol 2.0)
+| ssh-hostkey: 
+|   2048 33:fc:1a:f6:a2:f0:25:21:7e:38:35:12:74:ea:5f:89 (RSA)
+| ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDBHpUMS26zWlEZsui1uI2hCAZy5MrN0/WvhspL+Ei6NZwRbr8dT8BDTz+vAQHSVM3NYFT3kio9FCBZGV2qt7X097Yf3R0zJJI1z3tz3/xRaCrkIAmZ3Jve4bpkFdWcNzIS2IFmD9SGj5bqZTvMvqhXy3xnY13XFZ0kI/W6+h2GsX7dh+QBuOoJDVQXc4nnwI3oOfLmgn5VaoKfJEqQ4Qz7oyakwzrlWi8AP6tRm7MvkdnWvRp0rUTUqRKGHvCMSRQQ1smrYijHxobOzwi1jUV5wgSUTBLoncK+4ERVO9bc6yOBjHHO1ybHNw1U5gF1bYPn9jFCyT4uInjVJuCXSYyD
+|   256 e2:18:2f:fa:0a:8c:7a:51:1f:06:68:04:f8:3f:91:d5 (ECDSA)
+| ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBFfGAMkh5QlQk29r2BgKnaRBa0VP/IcMBIJqg/X9P83lZZkzZ2Nr2ZCont1lESRvu5/PX/ATfdGGpnPpv1QFFLs=
+|   256 9b:95:33:b9:57:f2:3a:0d:a6:3b:1d:76:b9:cf:62:a3 (ED25519)
+|_ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAII3v9zhiFQX1frG7Ado2D8f0gbDAV69EDYKYnS70c0/d
+80/tcp    open  http    syn-ack Apache Tomcat/Coyote JSP engine 1.1
+|_http-server-header: Apache-Coyote/1.1
+| http-title: Santa Naughty and Nice Tracker
+|_Requested resource was showcase.action
+| http-methods: 
+|_  Supported Methods: GET HEAD POST OPTIONS
+111/tcp   open  rpcbind syn-ack 2-4 (RPC #100000)
+| rpcinfo: 
+|   program version    port/proto  service
+|   100000  2,3,4        111/tcp   rpcbind
+|   100000  2,3,4        111/udp   rpcbind
+|   100000  3,4          111/tcp6  rpcbind
+|   100000  3,4          111/udp6  rpcbind
+|   100024  1          42493/tcp6  status
+|   100024  1          48541/tcp   status
+|   100024  1          50721/udp   status
+|_  100024  1          58565/udp6  status
+48541/tcp open  status  syn-ack 1 (RPC #100024)
+
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Tue Nov 14 20:32:23 2023 -- 1 IP address (1 host up) scanned in 14.41 seconds

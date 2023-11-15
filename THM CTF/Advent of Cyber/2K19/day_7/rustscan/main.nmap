@@ -1,0 +1,35 @@
+# Nmap 7.94SVN scan initiated Tue Nov 14 01:40:34 2023 as: nmap -vvv -p 999,111,38641,22 -sC -sV -oN rustscan/main.nmap 10.10.181.198
+Nmap scan report for 10.10.181.198
+Host is up, received conn-refused (0.20s latency).
+Scanned at 2023-11-14 01:40:35 IST for 18s
+
+PORT      STATE SERVICE REASON  VERSION
+22/tcp    open  ssh     syn-ack OpenSSH 7.4 (protocol 2.0)
+| ssh-hostkey: 
+|   2048 c7:3b:dd:0c:2f:e6:66:c8:fa:fb:f9:14:db:7a:0f:4f (RSA)
+| ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCoQ41SZu6Ac7f6K7w6Xg5VS/zjmOkItCM/W8V5xQD9ARle3BPfQRC3EhCpXt0sTUB6e1aj7HJTM4Eu3b64vtnKPeh4Tmv7tbLkRlMM0YQ40DtbHDC3E42XAqJ2B0YMZc/mbFt6jencyGuRph+nT6fymb5ZBsPVDa5PALa7D0IjWj5HJ6BHwf2Y3PBK1ePGR7BVIKyQKNVfuAS/0pNeu3choLTBt4jptZXPxzLVCa5a2SXbi5o4N4Fttm82g+TEAmvETJ+lbtFWqNd35n+FDjFNGCIrT++FubEBuBhHxarbUq1Y3VEEX7YngA25nNAmkHGW/wQsIjssHwhIAqCu2s7V
+|   256 f0:c7:fa:6a:4e:41:3f:57:19:77:9f:e6:53:05:4e:d7 (ECDSA)
+| ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBDUmdGiu0smUe1TMhBkt7pc0cBU7awfxcnXOKVecmt/l+PrEZy1bC8Vvz+2RSuZMpBnHaxmHw9ibjwVA4EILUTw=
+|   256 c9:5d:48:47:73:be:d5:6f:bb:a7:a0:35:24:74:6a:ee (ED25519)
+|_ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIET1A81s8GhClIFfCp/MGC0xwubfPYKX/OFcOAHB4zHb
+111/tcp   open  rpcbind syn-ack 2-4 (RPC #100000)
+| rpcinfo: 
+|   program version    port/proto  service
+|   100000  2,3,4        111/tcp   rpcbind
+|   100000  2,3,4        111/udp   rpcbind
+|   100000  3,4          111/tcp6  rpcbind
+|   100000  3,4          111/udp6  rpcbind
+|   100024  1          33206/udp   status
+|   100024  1          38641/tcp   status
+|   100024  1          49909/tcp6  status
+|_  100024  1          59805/udp6  status
+999/tcp   open  http    syn-ack SimpleHTTPServer 0.6 (Python 3.6.8)
+|_http-title: Directory listing for /
+|_http-server-header: SimpleHTTP/0.6 Python/3.6.8
+| http-methods: 
+|_  Supported Methods: GET HEAD
+38641/tcp open  status  syn-ack 1 (RPC #100024)
+
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Tue Nov 14 01:40:53 2023 -- 1 IP address (1 host up) scanned in 18.94 seconds

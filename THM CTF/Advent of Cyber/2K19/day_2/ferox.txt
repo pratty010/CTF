@@ -1,0 +1,21 @@
+302      GET        1l        4w       28c http://10.10.3.199:3000/logout => http://10.10.3.199:3000/login
+302      GET        1l        4w       28c http://10.10.3.199:3000/ => http://10.10.3.199:3000/login
+301      GET       10l       16w      173c http://10.10.3.199:3000/css => http://10.10.3.199:3000/css/
+302      GET        1l        4w       27c http://10.10.3.199:3000/admin => http://10.10.3.199:3000/home
+301      GET       10l       16w      171c http://10.10.3.199:3000/js => http://10.10.3.199:3000/js/
+301      GET       10l       16w      179c http://10.10.3.199:3000/assets => http://10.10.3.199:3000/assets/
+200      GET       51l      110w     1713c http://10.10.3.199:3000/login
+200      GET       26l      205w    14205c http://10.10.3.199:3000/assets/pole.png
+302      GET        1l        4w       27c http://10.10.3.199:3000/Admin => http://10.10.3.199:3000/home
+200      GET       50l      272w    25335c http://10.10.3.199:3000/assets/pen.gif
+302      GET        1l        4w       28c http://10.10.3.199:3000/home => http://10.10.3.199:3000/login
+200      GET       51l      110w     1713c http://10.10.3.199:3000/Login
+200      GET        7l      567w    48944c http://10.10.3.199:3000/js/bootstrap.min.js
+200      GET        7l     1513w   144877c http://10.10.3.199:3000/css/bootstrap.min.css
+302      GET        1l        4w       27c http://10.10.3.199:3000/ADMIN => http://10.10.3.199:3000/home
+302      GET        1l        4w       28c http://10.10.3.199:3000/Home => http://10.10.3.199:3000/login
+200      GET       53l      123w     1733c http://10.10.3.199:3000/sysadmin
+302      GET        1l        4w       28c http://10.10.3.199:3000/Logout => http://10.10.3.199:3000/login
+200      GET       53l      123w     1733c http://10.10.3.199:3000/SysAdmin
+302      GET        1l        4w       28c http://10.10.3.199:3000/HOME => http://10.10.3.199:3000/login
+200      GET       51l      110w     1713c http://10.10.3.199:3000/LOGIN

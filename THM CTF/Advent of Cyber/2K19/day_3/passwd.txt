@@ -1,0 +1,9 @@
+Hash-mode was not specified with -m. Attempting to auto-detect hash mode.
+The following mode was auto-detected as the only one matching your input hash:
+
+1800 | sha512crypt $6$, SHA512 (Unix) | Operating System
+
+NOTE: Auto-detect is best effort. The correct hash-mode is NOT guaranteed!
+Do NOT report auto-detect issues unless you are certain of the hash type.
+
+$6$3GvJsNPG$ZrSFprHS13divBhlaKg1rYrYLJ7m1xsYRKxlLh0A1sUc/6SUd7UvekBOtSnSyBwk3vCDqBhrgxQpkdsNN6aYP1:rainbow
