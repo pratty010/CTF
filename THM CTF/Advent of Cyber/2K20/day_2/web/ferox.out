@@ -1,0 +1,32 @@
+301      GET        7l       20w      235c http://10.10.146.6/uploads => http://10.10.146.6/uploads/
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://10.10.146.6/uploads (Apache)
+200      GET      528l     3083w   312691c http://10.10.146.6/uploads/cookie_check.png
+301      GET        7l       20w      234c http://10.10.146.6/assets => http://10.10.146.6/assets/
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://10.10.146.6/assets (Apache)
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://10.10.146.6/assets/css (Apache)
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://10.10.146.6/assets/fonts (Apache)
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://10.10.146.6/assets/img (Apache)
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://10.10.146.6/assets/js (Apache)
+200      GET        4l        6w       82c http://10.10.146.6/assets/css/lemonada.css
+200      GET        4l        7w       97c http://10.10.146.6/assets/css/sawarabi.css
+200      GET        4l        6w       80c http://10.10.146.6/assets/css/roboto.css
+200      GET        1l      107w     1974c http://10.10.146.6/assets/css/lightrope.css
+404      GET        7l       24w      215c http://10.10.146.6/assets/css/assets
+200      GET        1l       10w      389c http://10.10.146.6/assets/css/preauth.css
+200      GET        1l       88w     1221c http://10.10.146.6/assets/css/auth.css
+200      GET       91l      664w     4393c http://10.10.146.6/assets/fonts/OFL.txt
+404      GET        7l       24w      217c http://10.10.146.6/assets/fonts/assets
+200      GET      202l     1581w    11560c http://10.10.146.6/assets/fonts/LICENSE.txt
+404      GET        7l       24w      215c http://10.10.146.6/assets/img/assets
+200      GET        1l       15w     1445c http://10.10.146.6/assets/js/boxfade.js
+200      GET        1l       11w      885c http://10.10.146.6/assets/js/preauth.js
+200      GET        1l       35w     3405c http://10.10.146.6/assets/js/upload.js
+404      GET        7l       24w      214c http://10.10.146.6/assets/js/assets
+200      GET       29l      107w     9874c http://10.10.146.6/assets/js/snowstorm-min.js
+200      GET        1l       82w    19708c http://10.10.146.6/assets/css/buttons.css
+200      GET      993l     4292w   147388c http://10.10.146.6/assets/fonts/Lemonada-Light.ttf
+200      GET     1754l     4896w   262424c http://10.10.146.6/assets/fonts/Roboto-Regular.ttf
+200      GET    13139l    50267w  1276953c http://10.10.146.6/assets/fonts/SawarabiMincho-Regular.ttf
+200      GET     1655l     9249w   677251c http://10.10.146.6/assets/img/preauth-background.jpg
+200      GET     5952l    34187w  2639096c http://10.10.146.6/assets/img/tiltShifted-LightsDimmed-Nose.png
+200      GET     5774l    33829w  2701023c http://10.10.146.6/assets/img/tilt-shift.png

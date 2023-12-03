@@ -1,6 +1,6 @@
 # This is the Write Up for day 6 challenge of Advent of Cyber 2K19 CTF.
 
-> Pratyush Prakhar (5#1NC#4N) - 12/07/2019
+> Pratyush Prakhar (5#1NC#4N) - 12/06/2019
 
 ## Description
 

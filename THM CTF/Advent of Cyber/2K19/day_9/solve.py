@@ -1,7 +1,7 @@
 """
 This is the Write Up for day 9 challenge of Advent of Cyber 2K19 CTF.
 
-> Pratyush Prakhar (5#1NC#4N) - 12/10/2019
+> Pratyush Prakhar (5#1NC#4N) - 12/09/2019
 
 Description:
 McSkidy has been going keeping inventory of all the infrastructure but he finds a random web server running on port 3000. All he receives when accessing '/' is {"value":"s","next":"f"}
